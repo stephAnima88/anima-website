@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Services | Anima Business Consulting</title>
 <meta name="description" content="Investment accounting frameworks, process automation and re-engineering, system deployments, enhancements and decommissioning, training, and custom software.">
+<meta name="theme-color" content="#14233b">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
@@ -13,78 +14,77 @@
 <header class="site-header">
   <div class="wrap bar">
     <a class="brand" href="/" aria-label="Anima Business Consulting, home">
-      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#14233b"/><circle cx="32" cy="32" r="16" fill="none" stroke="#7fc4cb" stroke-width="5"/><circle cx="32" cy="32" r="5" fill="#fff"/></svg>
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 56 L32 16 L52 56" fill="none" stroke="#fbfaf7" stroke-width="9"/><rect x="21" y="38" width="39" height="7" fill="#7fc4cb"/></svg>
       <span><span class="name">Anima</span><span class="sub">Business Consulting</span></span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Main">
-        <a href="/about/">About</a>
-        <a href="/services/" aria-current="page">Services</a>
-        <a href="/products/">Apps &amp; ventures</a>
-        <a href="/contact/">Contact</a>
+      <a href="/services/" aria-current="page">Services</a>
+      <a href="/products/">Apps &amp; ventures</a>
+      <a href="/about/">About</a>
+      <a class="nav-cta" href="/contact/">Contact us</a>
     </nav>
   </div>
 </header>
 <main id="main">
 <section class="page-head">
-  <div class="wrap narrow">
+  <div class="wrap">
     <p class="eyebrow">Services</p>
     <h1>What we can help with</h1>
     <p class="lead">Our work falls into five areas. Most projects combine two or more of them.</p>
+    <nav class="pills" aria-label="Service areas">
+      <a href="#frameworks">01 Frameworks</a><a href="#process">02 Process</a><a href="#systems">03 Systems</a><a href="#training">04 Training</a><a href="#software">05 Software</a>
+    </nav>
   </div>
 </section>
-<section>
-  <div class="wrap narrow">
-    <div class="service">
-      <h2>Investment accounting frameworks</h2>
-      <p>The rules and structures that decide how investment activity becomes accurate books and records.</p>
+<section class="services-list">
+  <div class="wrap">
+    <article class="service" id="frameworks">
+      <div><span class="n">01</span><h2>Investment accounting frameworks</h2><p>The rules and structures that decide how investment activity becomes accurate books and records.</p></div>
       <ul>
         <li>Designing and reviewing investment accounting frameworks</li>
         <li>Aligning the investment book of record with the accounting book of record</li>
         <li>Documenting policies and controls so they can be followed and audited</li>
       </ul>
-    </div>
-    <div class="service">
-      <h2>Process automation and re-engineering</h2>
-      <p>Finding where time and accuracy are lost, then fixing it.</p>
+    </article>
+    <article class="service" id="process">
+      <div><span class="n">02</span><h2>Process automation and re-engineering</h2><p>Finding where time and accuracy are lost, then fixing it.</p></div>
       <ul>
         <li>Mapping how work really flows today</li>
         <li>Removing manual steps and automating repetitive work</li>
         <li>Redesigning processes end to end, with the team that runs them</li>
       </ul>
-    </div>
-    <div class="service">
-      <h2>Systems: deployments, enhancements and decommissioning</h2>
-      <p>Support across the whole life of a system.</p>
+    </article>
+    <article class="service" id="systems">
+      <div><span class="n">03</span><h2>Systems: deployments, enhancements and decommissioning</h2><p>Support across the whole life of a system.</p></div>
       <ul>
         <li>Deploying new systems and getting them into production</li>
         <li>Enhancing existing systems to fit changing needs</li>
         <li>Planning and carrying out decommissioning, including what happens to the data</li>
       </ul>
-    </div>
-    <div class="service">
-      <h2>Training</h2>
-      <p>New processes and systems only work if people are comfortable using them.</p>
+    </article>
+    <article class="service" id="training">
+      <div><span class="n">04</span><h2>Training</h2><p>New processes and systems only work if people are comfortable using them.</p></div>
       <ul>
         <li>Training for staff on new and changed processes and systems</li>
         <li>Material written for your own procedures, not generic slides</li>
       </ul>
-    </div>
-    <div class="service">
-      <h2>Custom software</h2>
-      <p>When no product fits, we build software to suit the job.</p>
+    </article>
+    <article class="service" id="software">
+      <div><span class="n">05</span><h2>Custom software</h2><p>When no product fits, we build software to suit the job.</p></div>
       <ul>
         <li>Tools and integrations built around your process</li>
         <li>Built with the people who will use them, and handed over properly</li>
       </ul>
-    </div>
+    </article>
   </div>
 </section>
 
 <section class="band">
   <div class="wrap">
-    <h2>How a project runs</h2>
-    <ol class="steps" style="margin-top:20px">
+    <p class="eyebrow">How a project runs</p>
+    <h2>Three steps, and we leave it running.</h2>
+    <ol class="steps" style="margin-top:40px">
       <li><strong>Understand</strong>We learn how the work is done today, and what is getting in the way.</li>
       <li><strong>Design</strong>We agree the target process, system or framework with the people who will use it.</li>
       <li><strong>Deliver and hand over</strong>We build or change what is needed, train your team and leave it running.</li>
@@ -93,9 +93,11 @@
 </section>
 
 <section class="band-dark">
-  <div class="wrap narrow">
-    <h2>Talk to us about your project</h2>
-    <p class="lead">A short message is enough to start.</p>
+  <div class="wrap">
+    <div>
+      <h2>Talk to us about your project</h2>
+      <p>A short message is enough to start.</p>
+    </div>
     <a class="btn" href="/contact/">Contact us</a>
   </div>
 </section>
@@ -104,9 +106,9 @@
   <div class="wrap">
     <div class="foot">
       <div>
-        <h3>Anima Business Consulting (Pty) Ltd</h3>
+        <p class="foot-brand"><svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 56 L32 16 L52 56" fill="none" stroke="#fbfaf7" stroke-width="9"/><rect x="21" y="38" width="39" height="7" fill="#7fc4cb"/></svg><span>Anima Business Consulting</span></p>
         <address>Unit 7, Die Wilge, 168 Smit Street, Fairland, Johannesburg, 2170, South Africa</address>
-        <p style="margin-top:10px"><a href="mailto:info@animabusinessconsulting.net">info@animabusinessconsulting.net</a><br><a href="tel:+27689010708">+27 68 901 0708</a></p>
+        <p><a href="mailto:info@animabusinessconsulting.net">info@animabusinessconsulting.net</a><br><a href="tel:+27689010708">+27 68 901 0708</a></p>
       </div>
       <div>
         <h3>Explore</h3>
@@ -118,7 +120,7 @@
         </ul>
       </div>
       <div>
-        <h3>Legal and help</h3>
+        <h3>Legal &amp; help</h3>
         <ul>
           <li><a href="/privacy/">Website privacy</a></li>
           <li><a href="/support/">App support</a></li>
